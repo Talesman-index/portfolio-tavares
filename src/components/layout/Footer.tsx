@@ -9,7 +9,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-black pt-32 pb-12 px-6 lg:px-12 border-t border-white/5 relative overflow-hidden">
+    <footer className="bg-black pt-32 pb-12 px-6 lg:px-12 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-accent-primary/5 blur-[150px] rounded-full translate-y-1/2 translate-x-1/4" />
       
@@ -44,21 +44,21 @@ export default function Footer() {
         </div>
 
         {/* Info Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-16 lg:gap-8 border-t border-white/10 pt-20 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-16 lg:gap-8 border-t border-border-card/20 pt-20 mb-20">
           
           <div className="lg:col-span-5">
-            <h3 className="text-2xl font-syne font-bold text-white uppercase mb-8">Afro-Contempo</h3>
+            <h3 className="text-2xl font-syne font-normal text-white uppercase mb-8">Afro-Contempo</h3>
             <p className="text-text-muted font-space text-lg leading-relaxed max-w-sm italic opacity-80">
               "Mon travail célèbre l'esthétique afro-contempo, la mêlant à une rigueur cinématographique mondiale."
             </p>
             <div className="mt-12 flex gap-6">
-              <a href="https://www.instagram.com/brayann_n_" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center border border-white/10 hover:border-accent-primary hover:bg-accent-primary/10 transition-all text-white group">
+              <a href="https://www.instagram.com/brayann_n_" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center border border-accent-primary/20 hover:border-accent-primary hover:bg-accent-primary/10 transition-all text-white group">
                 <Instagram size={20} className="group-hover:scale-110 transition-transform" />
               </a>
-              <a href="#" className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center border border-white/10 hover:border-accent-primary hover:bg-accent-primary/10 transition-all text-white group">
+              <a href="#" className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center border border-accent-primary/20 hover:border-accent-primary hover:bg-accent-primary/10 transition-all text-white group">
                 <Youtube size={20} className="group-hover:scale-110 transition-transform" />
               </a>
-              <a href="mailto:tavares.stroyline@gmail.com" className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center border border-white/10 hover:border-accent-primary hover:bg-accent-primary/10 transition-all text-white group">
+              <a href="mailto:tavares.stroyline@gmail.com" className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center border border-accent-primary/20 hover:border-accent-primary hover:bg-accent-primary/10 transition-all text-white group">
                 <Mail size={20} className="group-hover:scale-110 transition-transform" />
               </a>
             </div>
@@ -98,18 +98,18 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="flex flex-col md:flex-row justify-between items-center pt-12 border-t border-white/5 gap-8">
+        <div className="flex flex-col md:flex-row justify-between items-center pt-12 border-t border-border-card/20 gap-8">
           <div className="flex flex-col md:flex-row items-center gap-8">
-             <span className="text-white font-syne font-bold uppercase text-lg tracking-widest opacity-40">Tavares</span>
-             <p className="text-text-muted text-[10px] uppercase tracking-widest font-arial">
+             <span className="text-white font-syne font-normal uppercase text-lg tracking-widest opacity-40">Tavares</span>
+             <p className="text-text-muted text-[10px] uppercase tracking-widest font-syne opacity-50">
                &copy; {currentYear} · Tous droits réservés
              </p>
           </div>
           <div className="flex gap-10">
-            <Link href="/mentions-legales" className="text-text-muted text-[10px] uppercase tracking-widest hover:text-accent-primary transition-colors font-arial">
+            <Link href="/mentions-legales" className="text-text-muted text-[10px] uppercase tracking-widest hover:text-accent-primary transition-colors font-syne">
               Mentions Légales
             </Link>
-            <Link href="/confidentialite" className="text-text-muted text-[10px] uppercase tracking-widest hover:text-accent-primary transition-colors font-arial">
+            <Link href="/confidentialite" className="text-text-muted text-[10px] uppercase tracking-widest hover:text-accent-primary transition-colors font-syne">
               Confidentialité
             </Link>
           </div>

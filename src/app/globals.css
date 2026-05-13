@@ -58,9 +58,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   overflow: hidden;
   color: #FFFFFF;
-  font-family: Arial, sans-serif;
+  font-family: var(--font-syne);
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 400;
   text-transform: uppercase;
   padding: 1rem 2rem;
   border-radius: 4px;
@@ -103,9 +103,9 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   background: transparent;
   color: var(--accent-primary);
-  font-family: Arial, sans-serif;
+  font-family: var(--font-syne);
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 400;
   text-transform: uppercase;
   padding: 1rem 2.5rem;
   border-radius: 4px;
@@ -126,8 +126,9 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   background: transparent;
   color: var(--text-body);
-  font-family: Arial, sans-serif;
+  font-family: var(--font-syne);
   font-size: 14px;
+  font-weight: 400;
   text-transform: uppercase;
   padding: 1rem 2rem;
   border-radius: 4px;

@@ -13,7 +13,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative w-full h-[95vh] overflow-hidden flex items-center justify-center">
+    <section className="relative w-full h-[95vh] overflow-hidden flex items-center justify-center" style={{overflowX:'hidden'}}>
       {/* Background Media */}
       <div className="absolute inset-0 bg-background-primary">
          <video
@@ -41,7 +41,7 @@ export default function Hero() {
             Cotonou · Bénin
           </p>
 
-          <h1 className="text-6xl sm:text-8xl md:text-9xl lg:text-[160px] font-syne font-extrabold text-white leading-[0.8] uppercase mb-8 tracking-[-0.05em]">
+          <h1 className="text-[11vw] sm:text-8xl md:text-9xl lg:text-[160px] font-syne font-extrabold text-white leading-[0.8] uppercase mb-8 tracking-[-0.03em] w-full text-center">
             Tavares
           </h1>
           
@@ -52,8 +52,8 @@ export default function Hero() {
                transition={{ duration: 1.5, delay: 0.5 }}
                className="h-[1px] bg-gradient-to-r from-transparent to-accent-primary/40" 
              />
-             <span className="text-gradient-gold font-syne font-bold uppercase tracking-[0.5em] text-xs md:text-sm">
-               Réalisateur
+             <span className="text-gradient-gold font-syne font-bold uppercase tracking-[0.3em] text-[9px] md:text-xs text-center">
+               Réalisateur &amp; Directeur Artistique
              </span>
              <motion.div 
                initial={{ width: 0 }}
@@ -76,7 +76,7 @@ export default function Hero() {
         className="absolute bottom-10 left-1/2 -translate-x-1/2 z-30 flex flex-col items-center group cursor-pointer"
         onClick={() => window.scrollTo({ top: window.innerHeight * 0.9, behavior: 'smooth' })}
       >
-        <div className="relative w-[26px] h-[45px] border border-white/20 rounded-full mb-4 overflow-hidden">
+        <div className="relative w-[26px] h-[45px] border border-accent-primary/20 rounded-full mb-4 overflow-hidden">
           <motion.div 
             animate={{ 
               y: [2, 12, 2],

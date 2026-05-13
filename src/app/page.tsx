@@ -58,8 +58,8 @@ export default function Home() {
              />
              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
              <div className="absolute bottom-8 left-8 border-l-4 border-accent-primary pl-6">
-                <span className="text-white font-syne font-bold text-xl uppercase block">Tavares</span>
-                <span className="text-text-muted font-space text-sm">Directeur Artistique</span>
+                <span className="text-white font-syne font-normal text-xl uppercase block tracking-tight">Tavares</span>
+                <span className="text-text-muted font-syne font-normal text-[10px] uppercase tracking-widest opacity-60">Directeur Artistique</span>
              </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-syne font-extrabold text-white uppercase mb-12 leading-none">
           Prêt à sculpter <br /> votre vision ?
         </h2>
-        <a href="mailto:tavares.stroyline@gmail.com" className="bg-white text-accent-primary font-syne font-bold uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-xl">
+        <a href="mailto:tavares.stroyline@gmail.com" className="bg-white text-accent-primary font-syne font-normal uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-xl tracking-widest">
           Démarrer un projet
         </a>
       </section>

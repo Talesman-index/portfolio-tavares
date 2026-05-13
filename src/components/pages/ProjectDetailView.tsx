@@ -40,7 +40,7 @@ export default function ProjectDetailView({ project }: ProjectDetailViewProps) {
           >
             <Link 
               href="/projets" 
-              className="inline-flex items-center gap-2 text-accent-primary mb-8 hover:gap-4 transition-all uppercase font-arial text-xs tracking-widest"
+              className="inline-flex items-center gap-2 text-accent-primary mb-8 hover:gap-4 transition-all uppercase font-syne text-xs tracking-[0.2em]"
             >
               <ArrowLeft size={16} /> Retour aux projets
             </Link>
@@ -105,8 +105,8 @@ export default function ProjectDetailView({ project }: ProjectDetailViewProps) {
                 <div className="flex gap-4 items-start">
                   <User className="text-accent-primary shrink-0" size={24} />
                   <div>
-                    <span className="text-text-muted text-xs uppercase block mb-1">Artiste</span>
-                    <span className="text-white font-space font-bold">{project.artiste}</span>
+                    <span className="text-text-muted text-[10px] uppercase block mb-1 tracking-widest font-syne">Artiste</span>
+                    <span className="text-white font-syne font-normal text-lg">{project.artiste}</span>
                   </div>
                 </div>
 
@@ -116,7 +116,7 @@ export default function ProjectDetailView({ project }: ProjectDetailViewProps) {
                     <span className="text-text-muted text-xs uppercase block mb-1">Mon Rôle</span>
                     <div className="flex flex-wrap gap-2 mt-1">
                       {project.roles.map((role) => (
-                        <span key={role} className="text-[10px] bg-background-primary px-2 py-1 rounded text-white border border-border-card">
+                        <span key={role} className="text-[10px] bg-background-primary px-2 py-1 rounded text-white border border-border-card font-syne font-normal uppercase tracking-wider">
                           {role}
                         </span>
                       ))}
@@ -127,8 +127,8 @@ export default function ProjectDetailView({ project }: ProjectDetailViewProps) {
                 <div className="flex gap-4 items-start">
                   <Calendar className="text-accent-primary shrink-0" size={24} />
                   <div>
-                    <span className="text-text-muted text-xs uppercase block mb-1">Catégorie</span>
-                    <span className="text-white font-space font-bold uppercase">{project.categorie}</span>
+                    <span className="text-text-muted text-[10px] uppercase block mb-1 tracking-widest font-syne">Catégorie</span>
+                    <span className="text-white font-syne font-normal uppercase tracking-wide">{project.categorie}</span>
                   </div>
                 </div>
               </div>

@@ -13,7 +13,7 @@ const items = [
 
 export default function MarqueeStripe() {
   return (
-    <div className="w-full h-12 bg-marquee-gold overflow-hidden flex items-center border-y border-accent-active/20">
+    <div className="w-full h-12 bg-marquee-gold overflow-hidden flex items-center">
       <motion.div
         animate={{ x: ["0%", "-50%"] }}
         transition={{
@@ -27,7 +27,7 @@ export default function MarqueeStripe() {
           <div key={i} className="flex items-center">
             {items.map((item, j) => (
               <React.Fragment key={j}>
-                <span className="text-background-primary font-arial font-bold uppercase text-xs tracking-[2px] mx-8">
+                <span className="text-background-primary font-syne font-normal uppercase text-xs tracking-[0.25em] mx-8">
                   {item}
                 </span>
                 <span className="w-2 h-2 rounded-full bg-background-primary opacity-50" />

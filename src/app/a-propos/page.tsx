@@ -8,10 +8,10 @@ import Footer from "@/components/layout/Footer";
 import { CheckCircle, Camera, Film, Palette, Star } from "lucide-react";
 
 const stats = [
-  { label: "Projets Réalisés", value: "50+" },
-  { label: "Collaborations", value: "30+" },
-  { label: "Années d'expérience", value: "5+" },
-  { label: "Visions sculptées", value: "∞" },
+  { label: "Projets réalisés", value: "50+" },
+  { label: "Clients", value: "30+" },
+  { label: "Vues totales", value: "+1M" },
+  { label: "Clients satisfaits", value: "100%" },
 ];
 
 export default function AboutPage() {
@@ -28,7 +28,7 @@ export default function AboutPage() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
-              className="font-space font-bold text-gradient-gold uppercase tracking-[0.3em] mb-6"
+              className="font-syne font-normal text-gradient-gold uppercase tracking-[0.4em] text-xs mb-6"
             >
               L'homme derrière la caméra
             </motion.p>
@@ -39,7 +39,7 @@ export default function AboutPage() {
               className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-syne font-extrabold text-white uppercase leading-[0.9] mb-10"
             >
               Tavares.<br />
-              <span className="text-gradient-gold">Réalisateur.</span>
+              <span className="text-gradient-gold">Réalisateur &amp;<br />Directeur Artistique.</span>
             </motion.h1>
             
             <motion.div
@@ -67,8 +67,8 @@ export default function AboutPage() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-8 left-8 border-l-4 border-accent-primary pl-6">
-               <span className="text-white font-syne font-bold text-2xl uppercase block">Tavares</span>
-               <span className="text-text-muted font-space text-sm">Réalisateur & Directeur Artistique</span>
+               <span className="text-white font-syne font-normal text-2xl uppercase block tracking-tight">Tavares</span>
+               <span className="text-text-muted font-syne font-normal text-sm uppercase tracking-widest">Réalisateur & Directeur Artistique</span>
             </div>
           </div>
 
@@ -76,25 +76,49 @@ export default function AboutPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-background-secondary border-y border-border-card/30">
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-12">
+      <section className="relative py-0 bg-background-primary overflow-hidden">
+        {/* Gold top accent */}
+        <motion.div
+          initial={{ scaleX: 0 }}
+          whileInView={{ scaleX: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+          className="h-[1px] bg-gradient-to-r from-transparent via-accent-primary to-transparent origin-left"
+        />
+
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-20">
+          <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-border-card/20">
             {stats.map((stat, i) => (
-              <motion.div 
+              <motion.div
                 key={i}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.1 }}
+                transition={{ delay: i * 0.12, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
                 viewport={{ once: true }}
-                className="text-center"
+                className="flex flex-col items-center justify-center px-8 py-10 group"
               >
-                <div className="text-4xl md:text-5xl font-syne font-extrabold text-white mb-2">{stat.value}</div>
-                <div className="text-text-muted font-space text-xs uppercase tracking-widest">{stat.label}</div>
+                <div className="text-5xl md:text-6xl lg:text-7xl font-syne font-extrabold text-gradient-gold mb-3 leading-none group-hover:scale-105 transition-transform duration-500">
+                  {stat.value}
+                </div>
+                <div className="w-8 h-[1px] bg-accent-primary/40 mb-3 group-hover:w-16 transition-all duration-500" />
+                <div className="text-text-muted font-syne font-normal text-[11px] uppercase tracking-[0.2em] text-center">
+                  {stat.label}
+                </div>
               </motion.div>
             ))}
           </div>
         </div>
+
+        {/* Gold bottom accent */}
+        <motion.div
+          initial={{ scaleX: 0 }}
+          whileInView={{ scaleX: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+          className="h-[1px] bg-gradient-to-r from-transparent via-accent-primary to-transparent origin-right"
+        />
       </section>
+
 
       {/* Philosophies Section */}
       <section className="py-32 px-6 lg:px-12 bg-background-primary overflow-hidden">
@@ -143,7 +167,7 @@ export default function AboutPage() {
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-syne font-extrabold text-white uppercase mb-12 leading-none">
             Créons quelque chose <br /> d'unique ensemble.
           </h2>
-          <a href="mailto:tavares.stroyline@gmail.com" className="bg-white text-accent-primary font-syne font-bold uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-2xl">
+          <a href="mailto:tavares.stroyline@gmail.com" className="bg-white text-accent-primary font-syne font-normal uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-2xl tracking-widest">
             Me contacter
           </a>
         </motion.div>

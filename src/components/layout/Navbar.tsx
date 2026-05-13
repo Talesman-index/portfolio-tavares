@@ -35,8 +35,8 @@ export default function Navbar() {
   return (
     <nav
       className={cn(
-        "fixed top-0 left-0 w-full h-[53px] z-50 transition-all duration-300 flex items-center px-6 lg:px-12",
-        scrolled ? "bg-background-primary shadow-lg" : "bg-transparent"
+        "fixed left-0 w-full z-50 transition-all duration-700 flex items-center px-6 lg:px-12",
+        scrolled ? "top-0 bg-background-primary/95 backdrop-blur-md h-[80px] shadow-2xl" : "top-8 bg-transparent h-[100px]"
       )}
     >
       <div className="w-full max-w-[1400px] mx-auto flex justify-between items-center">
@@ -50,23 +50,26 @@ export default function Navbar() {
                className="object-cover"
              />
           </div>
-          <span className="text-white font-syne font-bold tracking-tighter text-lg uppercase hidden sm:block">
+          <span className="text-white font-syne font-normal tracking-tighter text-lg uppercase hidden sm:block">
             Tavares
           </span>
         </Link>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
             <Link
               key={link.name}
               href={link.href}
-              className="text-[14px] uppercase font-arial text-text-body hover:text-accent-primary transition-colors"
+              className="text-[13px] uppercase font-syne font-normal text-text-body/80 hover:text-white transition-colors duration-300 tracking-[0.08em]"
             >
               {link.name}
             </Link>
           ))}
-          <Link href="/#contact" className="border border-white/20 text-white font-syne font-bold text-[13px] uppercase py-3 px-8 rounded-[4px] hover:bg-white hover:text-black transition-all tracking-wider">
+          <Link 
+            href="/#contact" 
+            className="border border-white/80 text-white font-syne font-normal text-[13px] uppercase py-3 px-8 rounded-[4px] hover:bg-white hover:text-black transition-all duration-300 tracking-[0.08em]"
+          >
             Me contacter
           </Link>
         </div>
@@ -87,21 +90,21 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="fixed inset-0 top-[53px] bg-background-primary z-40 flex flex-col items-center justify-center gap-8 p-6 md:hidden"
+            className="fixed inset-0 top-0 bg-background-primary/98 backdrop-blur-xl z-40 flex flex-col items-center justify-center gap-10 p-6 md:hidden"
           >
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-2xl uppercase font-syne font-bold text-white hover:text-accent-primary transition-colors"
+                className="text-4xl uppercase font-syne font-normal text-white hover:text-accent-primary transition-colors tracking-[0.05em]"
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}
               </Link>
             ))}
             <Link
-              href="/contact"
-              className="btn-primary w-full text-center"
+              href="/#contact"
+              className="bg-white text-black font-syne font-normal text-lg uppercase py-5 px-12 rounded-[4px] w-full text-center"
               onClick={() => setIsOpen(false)}
             >
               Me contacter

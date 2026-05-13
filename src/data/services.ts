@@ -2,25 +2,25 @@ import { Service } from "@/types";
 
 export const detailedServices: Service[] = [
   {
-    id: "cinema-clips",
-    title: "Cinéma & Clips",
-    description: "Transcender la musique par l'image. Je réalise des clips immersifs où chaque plan raconte une histoire et chaque couleur vibre avec le rythme.",
+    id: "clips-musicaux",
+    title: "Clips Musicaux",
+    description: "Réalisation de clips musicaux mêlant storytelling, esthétique cinématographique et direction artistique afin de créer des univers visuels uniques autour de chaque artiste et de son identité.",
     iconName: "Camera",
     image: "/assets/services/cinema.jpg",
     features: ["Storyboarding narratif", "Direction de la photographie", "Étalonnage cinématographique", "Montage dynamique"]
   },
   {
     id: "pub-brand",
-    title: "Publicité Narrative",
-    description: "Donner une âme aux marques. Je conçois des campagnes visuelles qui ne se contentent pas de vendre, mais qui créent une émotion durable.",
+    title: "Publicités / Spots de marques",
+    description: "Création de films publicitaires et contenus de marque pensés pour valoriser l'image, les services et l'univers des entreprises à travers des visuels modernes, impactants et immersifs.",
     iconName: "Film",
     image: "/assets/services/pub.jpg",
     features: ["Concept créatif", "Brand storytelling", "Production haute qualité", "Formats multi-plateformes"]
   },
   {
-    id: "social-content",
-    title: "Social Content Impact",
-    description: "Maîtriser l'impact court. Création de contenus dynamiques pensés pour stopper le scroll et marquer les esprits sur les réseaux sociaux.",
+    id: "contenu-creatif",
+    title: "Contenus créatifs & commerciaux",
+    description: "Production de contenus visuels créatifs mêlant cinéma, lifestyle et expérimentation artistique pour les réseaux sociaux, campagnes digitales et projets visuels contemporains.",
     iconName: "Instagram",
     image: "/assets/services/social.jpg",
     features: ["Réels & TikTok premiums", "Contenu vertical immersif", "Stratégie visuelle sociale", "Engagement organique"]
@@ -28,7 +28,7 @@ export const detailedServices: Service[] = [
   {
     id: "dir-art",
     title: "Direction Artistique",
-    description: "L'identité par l'esthétique. Je définis l'ADN graphique de vos projets, assurant une cohérence visuelle totale du logo au film final.",
+    description: "Développement d'identités visuelles, concepts graphiques et directions créatives construits autour d'une vision forte, cohérente et esthétique adaptée à chaque projet ou marque.",
     iconName: "Palette",
     image: "/assets/services/art.jpg",
     features: ["Identité visuelle", "Moodboarding stratégique", "Design de sets", "Consulting esthétique"]

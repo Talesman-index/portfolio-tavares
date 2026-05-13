@@ -22,7 +22,7 @@ export default function ServicesPageView() {
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-gradient-gold font-space font-bold uppercase tracking-[0.3em] text-sm mb-6"
+            className="text-gradient-gold font-syne font-normal uppercase tracking-[0.4em] text-xs mb-6"
           >
             Ce que je fais pour vous
           </motion.p>
@@ -86,7 +86,7 @@ export default function ServicesPageView() {
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-syne font-extrabold text-white uppercase mb-12 leading-none">
             Besoin d'un <br /> devis personnalisé ?
           </h2>
-          <a href="/#contact" className="bg-white text-accent-primary font-syne font-bold uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-2xl">
+          <a href="/#contact" className="bg-white text-accent-primary font-syne font-normal uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-2xl tracking-widest">
             Lancer la discussion
           </a>
         </div>

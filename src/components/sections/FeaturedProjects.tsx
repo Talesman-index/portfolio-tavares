@@ -16,7 +16,7 @@ export default function FeaturedProjects() {
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="text-gradient-gold font-space font-bold uppercase tracking-[0.3em] text-sm mb-4"
+            className="text-gradient-gold font-syne font-normal uppercase tracking-[0.4em] text-xs mb-4"
           >
             Sélection de travaux
           </motion.p>
