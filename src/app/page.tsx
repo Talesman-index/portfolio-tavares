@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
 import MarqueeStripe from "@/components/ui/MarqueeStripe";
 import FeaturedProjects from "@/components/sections/FeaturedProjects";
@@ -10,7 +8,6 @@ import ServicesSection from "@/components/sections/ServicesSection";
 export default function Home() {
   return (
     <main className="min-h-screen bg-background-primary selection:bg-accent-primary selection:text-white">
-      <Navbar />
       
       {/* Hero Section */}
       <Hero />
@@ -78,7 +75,6 @@ export default function Home() {
         </a>
       </section>
       
-      <Footer />
     </main>
   );
 }

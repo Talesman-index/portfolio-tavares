@@ -1,8 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
+import Image from "next/image";
 import { CheckCircle, Camera, Film, Instagram, Palette } from "lucide-react";
 import { detailedServices } from "@/data/services";
 
@@ -15,7 +14,6 @@ const IconMap: Record<string, any> = {
 
 export default function ServicesPageView() {
   return <div className="min-h-screen bg-background-primary">
-      <Navbar />
 
       <div className="pt-32 pb-20 px-6 lg:px-12">
         <div className="max-w-[1200px] mx-auto text-center mb-12 lg:mb-20">
@@ -70,10 +68,11 @@ export default function ServicesPageView() {
                    </ul>
                 </div>
                 <div className="lg:w-1/2 relative aspect-video lg:aspect-square w-full rounded-2xl overflow-hidden border border-border-card shadow-2xl group bg-background-secondary">
-                   <img 
+                   <Image 
                      src={service.image} 
                      alt={service.title} 
-                     className="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700 opacity-60 group-hover:opacity-100"
+                     fill
+                     className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 opacity-60 group-hover:opacity-100"
                    />
                 </div>
               </motion.div>
@@ -93,6 +92,5 @@ export default function ServicesPageView() {
         </div>
       </section>
 
-      <Footer />
     </div>
 }

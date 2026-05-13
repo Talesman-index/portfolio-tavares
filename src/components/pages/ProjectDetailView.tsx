@@ -5,8 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowLeft, Play, Calendar, User, Briefcase, CheckCircle } from "lucide-react";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
 import { Project } from "@/types";
 
 interface ProjectDetailViewProps {
@@ -18,7 +16,6 @@ export default function ProjectDetailView({ project }: ProjectDetailViewProps) {
 
   return (
     <main className="min-h-screen bg-background-primary">
-      <Navbar />
       
       {/* Hero Section */}
       <section className="relative w-full h-[60vh] lg:h-[80vh] overflow-hidden">
@@ -144,7 +141,6 @@ export default function ProjectDetailView({ project }: ProjectDetailViewProps) {
         </div>
       </section>
 
-      <Footer />
     </main>
   );
 }

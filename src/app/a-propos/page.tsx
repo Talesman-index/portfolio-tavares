@@ -3,8 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
 import { CheckCircle, Camera, Film, Palette, Star } from "lucide-react";
 
 const stats = [
@@ -17,7 +15,6 @@ const stats = [
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-background-primary">
-      <Navbar />
 
       {/* Hero Portrait Section */}
       <section className="relative pt-32 pb-20 px-6 lg:px-12 overflow-hidden">
@@ -173,7 +170,6 @@ export default function AboutPage() {
         </motion.div>
       </section>
 
-      <Footer />
     </main>
   );
 }

@@ -33,7 +33,7 @@ export default function Footer() {
             </div>
             <div className="pb-4">
               <Link 
-                href="/contact" 
+                href="/#contact" 
                 className="group flex items-center gap-4 bg-white text-black font-syne font-bold uppercase py-6 px-12 rounded-full hover:bg-accent-primary hover:text-white transition-all duration-500 text-xl md:text-2xl whitespace-nowrap shadow-2xl"
               >
                 Parlons-en.

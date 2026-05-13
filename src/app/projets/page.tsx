@@ -2,8 +2,6 @@
 
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
 import ProjectCard from "@/components/ui/ProjectCard";
 import { projects } from "@/data/projects";
 import { clsx, type ClassValue } from "clsx";
@@ -30,7 +28,6 @@ export default function ProjetsPage() {
 
   return (
     <main className="min-h-screen bg-background-primary">
-      <Navbar />
 
       <section className="pt-40 pb-20 px-6 lg:px-12">
         <div className="max-w-[1400px] mx-auto">
@@ -95,7 +92,6 @@ export default function ProjetsPage() {
         </div>
       </section>
 
-      <Footer />
     </main>
   );
 }

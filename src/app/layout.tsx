@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
 };
 
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -36,7 +39,9 @@ export default function RootLayout({
   return (
     <html lang="fr" className={`${syne.variable} ${spaceGrotesk.variable}`} suppressHydrationWarning>
       <body className="antialiased bg-background-primary text-text-body">
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
