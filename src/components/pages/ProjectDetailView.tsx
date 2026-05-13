@@ -14,7 +14,7 @@ interface ProjectDetailViewProps {
 }
 
 export default function ProjectDetailView({ project }: ProjectDetailViewProps) {
-  const thumbnailUrl = `https://img.youtube.com/vi/${project.youtube_id}/maxresdefault.jpg`;
+  const thumbnailUrl = `https://img.youtube.com/vi/${project.youtube_id}/hqdefault.jpg`;
 
   return (
     <main className="min-h-screen bg-background-primary">
