@@ -76,39 +76,62 @@ export default function Navbar() {
 
         {/* Mobile Toggle */}
         <button
-          className="md:hidden text-white"
+          className="md:hidden text-white z-50 relative p-2"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle menu"
         >
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
+          {isOpen ? <X size={32} strokeWidth={1.5} /> : <Menu size={32} strokeWidth={1.5} />}
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu Overlay */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            className="fixed inset-0 top-0 bg-background-primary/98 backdrop-blur-xl z-40 flex flex-col items-center justify-center gap-10 p-6 md:hidden"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-background-primary/95 backdrop-blur-2xl z-40 md:hidden flex flex-col items-center justify-center"
           >
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                href={link.href}
-                className="text-4xl uppercase font-syne font-normal text-white hover:text-accent-primary transition-colors tracking-[0.05em]"
-                onClick={() => setIsOpen(false)}
-              >
-                {link.name}
-              </Link>
-            ))}
-            <Link
-              href="/#contact"
-              className="bg-white text-black font-syne font-normal text-lg uppercase py-5 px-12 rounded-[4px] w-full text-center"
-              onClick={() => setIsOpen(false)}
+            <motion.div
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: 20, opacity: 0 }}
+              transition={{ delay: 0.1 }}
+              className="flex flex-col items-center gap-8 w-full px-6"
             >
-              Me contacter
-            </Link>
+              {navLinks.map((link, i) => (
+                <motion.div
+                  key={link.name}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.1 + i * 0.05 }}
+                >
+                  <Link
+                    href={link.href}
+                    className="text-4xl uppercase font-syne font-bold text-white hover:text-accent-primary transition-all duration-300 tracking-[0.1em]"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {link.name}
+                  </Link>
+                </motion.div>
+              ))}
+              
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1 + navLinks.length * 0.05 }}
+                className="mt-4 w-full max-w-[280px]"
+              >
+                <Link
+                  href="/#contact"
+                  className="block w-full border border-white/20 text-white font-syne font-normal text-lg uppercase py-5 px-8 rounded-full text-center hover:bg-white hover:text-black transition-all duration-500"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Me contacter
+                </Link>
+              </motion.div>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
