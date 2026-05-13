@@ -16,7 +16,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "Tavares | Réalisateur & Directeur Artistique",
-  description: "Portfolio de Tavares, réalisateur et directeur artistique basé à Cotonou, Bénin. Clips musicaux, publicité, brand content.",
+  description: "Portfolio de Tavares, Réalisateur & Directeur Artistique basé à Cotonou, Bénin. Clips musicaux, publicité, brand content.",
   icons: {
     icon: [
       { url: '/favicon.ico' },

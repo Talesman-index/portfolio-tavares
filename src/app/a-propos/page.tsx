@@ -39,7 +39,7 @@ export default function AboutPage() {
               className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-syne font-extrabold text-white uppercase leading-[0.9] mb-10"
             >
               Tavares.<br />
-              <span className="text-gradient-gold">Réalisateur &amp;<br />Directeur Artistique.</span>
+              <span className="text-gradient-gold">Réalisateur &amp;<br />Directeur Artistique</span>
             </motion.h1>
             
             <motion.div

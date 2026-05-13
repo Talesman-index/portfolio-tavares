@@ -59,7 +59,7 @@ export default function Home() {
              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
              <div className="absolute bottom-8 left-8 border-l-4 border-accent-primary pl-6">
                 <span className="text-white font-syne font-normal text-xl uppercase block tracking-tight">Tavares</span>
-                <span className="text-text-muted font-syne font-normal text-[10px] uppercase tracking-widest opacity-60">Directeur Artistique</span>
+                <span className="text-text-muted font-syne font-normal text-[10px] uppercase tracking-widest opacity-60">Réalisateur & Directeur Artistique</span>
              </div>
           </div>
         </div>
