@@ -42,7 +42,7 @@ export default function ProjetsPage() {
             <p className="text-gradient-gold font-space font-bold uppercase tracking-[0.3em] text-sm mb-4">
               Portfolio Complet
             </p>
-            <h1 className="text-5xl md:text-8xl font-syne font-extrabold text-white uppercase leading-none mb-8">
+            <h1 className="text-[10vw] sm:text-6xl md:text-8xl font-syne font-extrabold text-white uppercase leading-none mb-8">
               Mes <span className="text-gradient-gold">Réalisations.</span>
             </h1>
           </motion.div>
