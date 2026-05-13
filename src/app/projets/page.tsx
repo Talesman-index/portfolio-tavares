@@ -37,18 +37,18 @@ export default function ProjetsPage() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="mb-16"
+            className="mb-16 text-center"
           >
-            <p className="text-gradient-gold font-space font-bold uppercase tracking-[0.3em] text-sm mb-4">
+            <p className="text-gradient-gold font-space font-bold uppercase tracking-[0.3em] text-[10px] sm:text-sm mb-4">
               Portfolio Complet
             </p>
-            <h1 className="text-[10vw] sm:text-6xl md:text-8xl font-syne font-extrabold text-white uppercase leading-none mb-8">
-              Mes <span className="text-gradient-gold">Réalisations.</span>
+            <h1 className="text-4xl sm:text-6xl md:text-8xl font-syne font-extrabold text-white uppercase leading-none mb-8 tracking-tight px-4">
+              Mes <span className="text-gradient-gold">Projets.</span>
             </h1>
           </motion.div>
 
           {/* Filters - New Design: Pills */}
-          <div className="flex flex-wrap gap-4 mb-20">
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-20">
             {categories.map((cat) => (
               <button
                 key={cat.id}
