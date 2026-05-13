@@ -18,11 +18,11 @@ export default function ServicesPageView() {
       <Navbar />
 
       <div className="pt-32 pb-20 px-6 lg:px-12">
-        <div className="max-w-[1400px] mx-auto text-center mb-24">
+        <div className="max-w-[1400px] mx-auto text-center mb-16 lg:mb-24">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-gradient-gold font-syne font-normal uppercase tracking-[0.4em] text-xs mb-6"
+            className="text-gradient-gold font-syne font-normal uppercase tracking-[0.4em] text-[10px] sm:text-xs mb-6"
           >
             Ce que je fais pour vous
           </motion.p>
@@ -30,13 +30,13 @@ export default function ServicesPageView() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-5xl md:text-8xl font-syne font-extrabold text-white uppercase leading-none"
+            className="text-[11vw] sm:text-6xl md:text-8xl font-syne font-extrabold text-white uppercase leading-none"
           >
             Expertises <span className="text-gradient-gold">Créatives.</span>
           </motion.h1>
         </div>
 
-        <div className="max-w-[1400px] mx-auto space-y-32">
+        <div className="max-w-[1400px] mx-auto space-y-20 lg:space-y-32">
           {detailedServices.map((service, index) => {
             const Icon = IconMap[service.iconName];
             const isEven = index % 2 === 0;
@@ -47,22 +47,23 @@ export default function ServicesPageView() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className={isEven ? "flex flex-col lg:flex-row gap-16 items-center" : "flex flex-col lg:flex-row-reverse gap-16 items-center"}
+                className={isEven ? "flex flex-col lg:flex-row gap-10 lg:gap-16 items-center" : "flex flex-col lg:flex-row-reverse gap-10 lg:gap-16 items-center"}
               >
-                <div className="lg:w-1/2">
-                   <div className="w-20 h-20 bg-background-card rounded-2xl flex items-center justify-center border border-border-card bg-gradient-gold shadow-2xl mb-8">
-                     <Icon size={48} className="text-white" />
+                <div className="lg:w-1/2 w-full">
+                   <div className="w-16 h-16 lg:w-20 lg:h-20 bg-background-card rounded-2xl flex items-center justify-center border border-border-card bg-gradient-gold shadow-2xl mb-6 lg:mb-8">
+                     <Icon size={32} className="text-white lg:hidden" />
+                     <Icon size={48} className="text-white hidden lg:block" />
                    </div>
-                   <h2 className="text-4xl md:text-5xl font-syne font-extrabold text-white uppercase mb-8 leading-tight">
+                   <h2 className="text-3xl md:text-5xl font-syne font-extrabold text-white uppercase mb-6 lg:mb-8 leading-tight">
                      {service.title}
                    </h2>
-                   <p className="text-text-body font-space text-xl leading-relaxed mb-8">
+                   <p className="text-text-body font-space text-lg md:text-xl leading-relaxed mb-8">
                      {service.description}
                    </p>
-                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-4">
                      {service.features.map((feature: string, i: number) => (
-                       <li key={i} className="flex items-center gap-3 text-text-muted font-space">
-                         <CheckCircle size={18} className="text-accent-primary" />
+                       <li key={i} className="flex items-center gap-3 text-text-muted font-space text-sm md:text-base">
+                         <CheckCircle size={18} className="text-accent-primary shrink-0" />
                          {feature}
                        </li>
                      ))}
@@ -81,12 +82,12 @@ export default function ServicesPageView() {
         </div>
       </div>
 
-      <section className="py-32 px-6 lg:px-12 bg-gradient-gold text-center">
+      <section className="py-24 lg:py-32 px-6 lg:px-12 bg-gradient-gold text-center">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-syne font-extrabold text-white uppercase mb-12 leading-none">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-syne font-extrabold text-white uppercase mb-10 lg:mb-12 leading-none">
             Besoin d'un <br /> devis personnalisé ?
           </h2>
-          <a href="/#contact" className="bg-white text-accent-primary font-syne font-normal uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-2xl tracking-widest">
+          <a href="/#contact" className="bg-white text-accent-primary font-syne font-normal uppercase py-5 px-10 lg:py-6 lg:px-16 rounded-full hover:bg-black hover:text-white transition-all text-lg lg:text-xl inline-block shadow-2xl tracking-widest">
             Lancer la discussion
           </a>
         </div>
