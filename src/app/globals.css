@@ -168,6 +168,10 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(90deg, #A25D10, #D39D39, #E4B23F, #D39D39, #A25D10);
 }
 
+.bg-gradient-gold {
+  background: linear-gradient(135deg, #A25D10, #B77426, #D39D39, #E0A643, #E4B23F);
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
