@@ -17,7 +17,7 @@ const navLinks = [
   { name: "Projets", href: "/projets" },
   { name: "Services", href: "/services" },
   { name: "À propos", href: "/a-propos" },
-  { name: "Contact", href: "/#contact" },
+  { name: "Galerie", href: "/galerie" },
 ];
 
 export default function Navbar() {
@@ -80,12 +80,12 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Link 
-              href="/#contact" 
-              className="border border-white/80 text-white font-syne font-normal text-[13px] uppercase py-3 px-8 rounded-[4px] hover:bg-white hover:text-black transition-all duration-300 tracking-[0.08em]"
+            <a 
+              href="mailto:tavares.storyline@gmail.com" 
+              className="border border-white/80 text-white font-syne font-normal text-[11px] uppercase py-3 px-6 rounded-[4px] hover:bg-white hover:text-black transition-all duration-300 tracking-[0.05em] whitespace-nowrap"
             >
-              Me contacter
-            </Link>
+              tavares.storyline@gmail.com
+            </a>
           </div>
   
           {/* Mobile Toggle */}
@@ -139,13 +139,13 @@ export default function Navbar() {
                 transition={{ delay: 0.2 + navLinks.length * 0.08 }}
                 className="mt-6 w-full max-w-[280px]"
               >
-                <Link
-                  href="/#contact"
-                  className="block w-full border border-white/20 text-white font-syne font-normal text-lg uppercase py-5 px-8 rounded-full text-center hover:bg-white hover:text-black transition-all duration-500"
+                <a
+                  href="mailto:tavares.storyline@gmail.com"
+                  className="block w-full border border-white/20 text-white font-syne font-normal text-sm uppercase py-5 px-4 rounded-full text-center hover:bg-white hover:text-black transition-all duration-500"
                   onClick={() => setIsOpen(false)}
                 >
-                  Me contacter
-                </Link>
+                  tavares.storyline@gmail.com
+                </a>
               </motion.div>
             </motion.div>
           </motion.div>

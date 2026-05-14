@@ -86,8 +86,8 @@ export default function ProjetsPage() {
           <h2 className="text-3xl md:text-5xl font-syne font-extrabold text-white uppercase mb-10">
             Une vision pour <span className="text-gradient-gold">votre projet ?</span>
           </h2>
-          <a href="/#contact" className="btn-primary inline-block py-5 px-12 text-lg">
-            Parlons-en maintenant
+          <a href="mailto:tavares.storyline@gmail.com" className="btn-primary inline-block py-5 px-12 text-lg">
+            tavares.storyline@gmail.com
           </a>
         </div>
       </section>

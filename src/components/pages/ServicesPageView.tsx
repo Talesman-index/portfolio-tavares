@@ -86,8 +86,8 @@ export default function ServicesPageView() {
           <h2 className="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-syne font-extrabold text-white uppercase mb-10 lg:mb-12 leading-[0.9] tracking-tighter">
             Besoin d&apos;un <br /> devis personnalisé ?
           </h2>
-          <a href="/#contact" className="bg-white text-accent-primary font-syne font-normal uppercase py-5 px-10 lg:py-6 lg:px-16 rounded-full hover:bg-black hover:text-white transition-all text-base lg:text-xl inline-block shadow-2xl tracking-widest">
-            Lancer la discussion
+          <a href="mailto:tavares.storyline@gmail.com" className="bg-white text-accent-primary font-syne font-normal uppercase py-5 px-10 lg:py-6 lg:px-16 rounded-full hover:bg-black hover:text-white transition-all text-base lg:text-xl inline-block shadow-2xl tracking-widest">
+            tavares.storyline@gmail.com
           </a>
         </div>
       </section>

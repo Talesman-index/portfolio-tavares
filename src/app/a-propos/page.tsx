@@ -164,8 +164,8 @@ export default function AboutPage() {
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-syne font-extrabold text-white uppercase mb-12 leading-none">
             Créons quelque chose <br /> d'unique ensemble.
           </h2>
-          <a href="mailto:tavares.stroyline@gmail.com" className="bg-white text-accent-primary font-syne font-normal uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-2xl tracking-widest">
-            Me contacter
+          <a href="mailto:tavares.storyline@gmail.com" className="bg-white text-accent-primary font-syne font-normal uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-2xl tracking-widest">
+            tavares.storyline@gmail.com
           </a>
         </motion.div>
       </section>

@@ -32,13 +32,13 @@ export default function Footer() {
               </h2>
             </div>
             <div className="pb-4">
-              <Link 
-                href="/#contact" 
+              <a 
+                href="mailto:tavares.storyline@gmail.com" 
                 className="group flex items-center gap-4 bg-white text-black font-syne font-bold uppercase py-6 px-12 rounded-full hover:bg-accent-primary hover:text-white transition-all duration-500 text-xl md:text-2xl whitespace-nowrap shadow-2xl"
               >
-                Parlons-en.
+                tavares.storyline@gmail.com
                 <ArrowUpRight className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-500" size={32} />
-              </Link>
+              </a>
             </div>
           </motion.div>
         </div>
@@ -58,7 +58,7 @@ export default function Footer() {
               <a href="#" className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center border border-accent-primary/20 hover:border-accent-primary hover:bg-accent-primary/10 transition-all text-white group">
                 <Youtube size={20} className="group-hover:scale-110 transition-transform" />
               </a>
-              <a href="mailto:tavares.stroyline@gmail.com" className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center border border-accent-primary/20 hover:border-accent-primary hover:bg-accent-primary/10 transition-all text-white group">
+              <a href="mailto:tavares.storyline@gmail.com" className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center border border-accent-primary/20 hover:border-accent-primary hover:bg-accent-primary/10 transition-all text-white group">
                 <Mail size={20} className="group-hover:scale-110 transition-transform" />
               </a>
             </div>
@@ -69,8 +69,8 @@ export default function Footer() {
             <ul className="space-y-6">
               <li>
                 <span className="text-text-muted text-xs uppercase block mb-1">Email</span>
-                <a href="mailto:tavares.stroyline@gmail.com" className="text-white font-space text-lg hover:text-accent-primary transition-colors underline decoration-accent-primary/30 underline-offset-8">
-                  tavares.stroyline@gmail.com
+                <a href="mailto:tavares.storyline@gmail.com" className="text-white font-space text-lg hover:text-accent-primary transition-colors underline decoration-accent-primary/30 underline-offset-8">
+                  tavares.storyline@gmail.com
                 </a>
               </li>
               <li>
