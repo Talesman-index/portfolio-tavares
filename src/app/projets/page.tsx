@@ -87,7 +87,7 @@ export default function ProjetsPage() {
             Une vision pour <span className="text-gradient-gold">votre projet ?</span>
           </h2>
           <a href="mailto:tavares.storyline@gmail.com" className="btn-primary inline-block py-5 px-12 text-lg">
-            tavares.storyline@gmail.com
+            CONTACT
           </a>
         </div>
       </section>

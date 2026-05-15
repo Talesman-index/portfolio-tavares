@@ -33,10 +33,9 @@ export default function AboutPage() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-syne font-extrabold text-white uppercase leading-[0.9] mb-10"
+              className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-syne font-extrabold text-white uppercase leading-tight mb-8"
             >
-              Tavares.<br />
-              <span className="text-gradient-gold">Réalisateur &amp;<br />Directeur Artistique</span>
+              Tavares. <span className="text-gradient-gold">Réalisateur &amp; Directeur Artistique</span>
             </motion.h1>
             
             <motion.div
@@ -165,7 +164,7 @@ export default function AboutPage() {
             Créons quelque chose <br /> d'unique ensemble.
           </h2>
           <a href="mailto:tavares.storyline@gmail.com" className="bg-white text-accent-primary font-syne font-normal uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-2xl tracking-widest">
-            tavares.storyline@gmail.com
+            CONTACT
           </a>
         </motion.div>
       </section>

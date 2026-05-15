@@ -84,7 +84,7 @@ export default function Navbar() {
               href="mailto:tavares.storyline@gmail.com" 
               className="border border-white/80 text-white font-syne font-normal text-[11px] uppercase py-3 px-6 rounded-[4px] hover:bg-white hover:text-black transition-all duration-300 tracking-[0.05em] whitespace-nowrap"
             >
-              tavares.storyline@gmail.com
+              CONTACT
             </a>
           </div>
   
@@ -144,7 +144,7 @@ export default function Navbar() {
                   className="block w-full border border-white/20 text-white font-syne font-normal text-sm uppercase py-5 px-4 rounded-full text-center hover:bg-white hover:text-black transition-all duration-500"
                   onClick={() => setIsOpen(false)}
                 >
-                  tavares.storyline@gmail.com
+                  CONTACT
                 </a>
               </motion.div>
             </motion.div>

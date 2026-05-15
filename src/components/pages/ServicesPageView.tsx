@@ -28,9 +28,9 @@ export default function ServicesPageView() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-[8vw] sm:text-5xl md:text-7xl lg:text-8xl font-syne font-extrabold text-white uppercase leading-[0.9] tracking-tighter mx-auto max-w-[90%]"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-syne font-extrabold text-white uppercase leading-tight mx-auto max-w-[90%]"
           >
-            Expertises <br className="sm:hidden" /> <span className="text-gradient-gold">Créatives.</span>
+            Expertises <span className="text-gradient-gold">Créatives.</span>
           </motion.h1>
         </div>
 
@@ -87,7 +87,7 @@ export default function ServicesPageView() {
             Besoin d&apos;un <br /> devis personnalisé ?
           </h2>
           <a href="mailto:tavares.storyline@gmail.com" className="bg-white text-accent-primary font-syne font-normal uppercase py-5 px-10 lg:py-6 lg:px-16 rounded-full hover:bg-black hover:text-white transition-all text-base lg:text-xl inline-block shadow-2xl tracking-widest">
-            tavares.storyline@gmail.com
+            CONTACT
           </a>
         </div>
       </section>

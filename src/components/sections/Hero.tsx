@@ -22,8 +22,7 @@ export default function Hero() {
            muted
            loop
            playsInline
-           poster="/assets/hero-bg.jpg"
-           className="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-screen"
+           className="absolute inset-0 w-full h-full object-cover opacity-40"
          >
            <source src="/assets/hero.mov" type="video/quicktime" />
            <source src="/assets/hero.mov" type="video/mp4" />
@@ -41,7 +40,7 @@ export default function Hero() {
             Cotonou · Bénin
           </p>
 
-          <h1 className="text-[11vw] sm:text-8xl md:text-9xl lg:text-[160px] font-syne font-extrabold text-white leading-[0.8] uppercase mb-8 tracking-[-0.03em] w-full text-center">
+          <h1 className="text-[10vw] sm:text-7xl md:text-8xl lg:text-[130px] font-syne font-extrabold text-white leading-[0.8] uppercase mb-8 tracking-[-0.03em] w-full text-center">
             Tavares
           </h1>
           

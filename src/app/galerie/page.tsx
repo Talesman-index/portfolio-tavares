@@ -98,7 +98,7 @@ export default function GaleriePage() {
             Envie de créer une <span className="text-gradient-gold">esthétique unique ?</span>
           </h2>
           <a href="mailto:tavares.storyline@gmail.com" className="btn-primary inline-flex">
-            tavares.storyline@gmail.com
+            CONTACT
           </a>
         </div>
       </section>

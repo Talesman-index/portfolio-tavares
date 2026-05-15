@@ -71,7 +71,7 @@ export default function Home() {
           Prêt à sculpter <br /> votre vision ?
         </h2>
         <a href="mailto:tavares.storyline@gmail.com" className="bg-white text-accent-primary font-syne font-normal uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-xl tracking-widest">
-          tavares.storyline@gmail.com
+          CONTACT
         </a>
       </section>
       
