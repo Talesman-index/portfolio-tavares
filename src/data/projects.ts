@@ -127,4 +127,18 @@ export const projects: Project[] = [
     youtube_url: "https://youtu.be/rz_bCgR_5f8",
     featured: true
   },
+  {
+    id: "travail",
+    slug: "travail",
+    titre: "TRAVAIL",
+    artiste: "Joe Kingston",
+    categorie: "clips-musicaux",
+    roles: ["Réalisation", "Direction Artistique"],
+    description_courte: "Un morceau où le 'TRAVAIL' devient investissement.",
+    description_longue: "Un morceau où le “TRAVAIL” devient investissement. Et Joe Kingston, la valeur sûre. Ce projet visuel explore les thématiques de l'effort, de la persévérance et de la réussite, traduisant en images la force du travail acharné. La mise en scène alterne entre performances charismatiques et ambiances urbaines travaillées, soulignant l'identité visuelle forte de l'artiste.\n\nCredits :\nStyle : @pantherstuff_\nMix/Master : @nick_forwitch\nRéalisateur : @brayann_n_\nDirection Artistique : @joekingston & @brayann_n_",
+    resultat: "Une œuvre visuelle percutante qui sublime le message du morceau par une esthétique soignée et une énergie débordante.",
+    youtube_id: "l56g5CeFYR8",
+    youtube_url: "https://youtu.be/l56g5CeFYR8",
+    featured: true
+  },
 ];
