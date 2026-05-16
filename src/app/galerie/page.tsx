@@ -1,21 +1,20 @@
 "use client";
 
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import { Camera, Image as ImageIcon, Film, Maximize2 } from "lucide-react";
+import { Camera, Image as ImageIcon, Film, Maximize2, X } from "lucide-react";
 
 const galleryImages = [
-  { id: 1, src: "/assets/services/cinema.jpg", title: "Behind the scenes - Clip Joe Kingston", category: "Tournage" },
-  { id: 2, src: "/assets/services/art.jpg", title: "Direction Artistique - Projet Love & Money", category: "Concept" },
-  { id: 3, src: "/assets/services/pub.jpg", title: "Set design - Publicité Brand", category: "Studio" },
-  { id: 4, src: "/assets/services/social.jpg", title: "Creative session - Street Vibes", category: "Lifestyle" },
+  { id: 7, src: "/assets/galerie/SHG-TOURNAGE-OPA-2-80.jpg", title: "Performance Live - Opa", category: "Tournage" },
+  { id: 8, src: "/assets/galerie/SHG-TOURNAGE-OPA-2-9.jpg", title: "Atmosphère de Plateau", category: "Backstage" },
   { id: 5, src: "/assets/tavares.jpg", title: "Tavares en action", category: "Portrait" },
-  { id: 6, src: "/assets/hero-bg.jpg", title: "Cinematic Atmosphere", category: "Texture" },
 ];
 
 export default function GaleriePage() {
+  const [selectedImage, setSelectedImage] = useState<null | typeof galleryImages[0]>(null);
+
   return (
     <main className="bg-background-primary min-h-screen">
       <Navbar />
@@ -58,7 +57,8 @@ export default function GaleriePage() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="group relative aspect-[4/5] overflow-hidden rounded-xl border border-border-card/20 bg-background-card"
+                className="group relative aspect-[4/5] overflow-hidden rounded-xl border border-border-card/20 bg-background-card cursor-pointer"
+                onClick={() => setSelectedImage(image)}
               >
                 {/* Image Placeholder/Real Image */}
                 <img 
@@ -90,6 +90,51 @@ export default function GaleriePage() {
           </div>
         </div>
       </section>
+
+      {/* Lightbox Modal */}
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/95 p-4 md:p-10"
+            onClick={() => setSelectedImage(null)}
+          >
+            <motion.button
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="absolute top-6 right-6 text-white hover:text-accent-primary transition-colors z-[110]"
+              onClick={() => setSelectedImage(null)}
+            >
+              <X size={40} strokeWidth={1} />
+            </motion.button>
+
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              transition={{ type: "spring", damping: 25, stiffness: 300 }}
+              className="relative max-w-full max-h-full flex flex-col items-center"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <img
+                src={selectedImage.src}
+                alt={selectedImage.title}
+                className="max-w-full max-h-[85vh] object-contain rounded-sm border border-white/10 shadow-2xl"
+              />
+              <div className="mt-6 text-center">
+                <span className="text-accent-primary font-space font-bold uppercase tracking-[0.3em] text-[10px] mb-2 block">
+                  {selectedImage.category}
+                </span>
+                <h3 className="text-white font-syne font-bold text-2xl uppercase tracking-tighter">
+                  {selectedImage.title}
+                </h3>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* CTA */}
       <section className="py-24 bg-background-secondary border-t border-border-card/10 text-center px-6">
