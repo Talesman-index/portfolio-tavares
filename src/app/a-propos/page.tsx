@@ -45,10 +45,13 @@ export default function AboutPage() {
               className="text-text-body font-space text-xl leading-relaxed max-w-2xl space-y-6"
             >
               <p>
-                Réalisateur et architecte visuel, je sculpte des récits où l'esthétique rencontre l'émotion. Spécialisé dans le clip musical, mon expertise s'étend à la publicité et la direction artistique.
+                Salut tout le monde ! Moi c’est Tavares. Passionné de cinéma et d’univers visuels, je suis spécialisé dans la réalisation de clips musicaux, mais mon univers ne s’arrête pas là. Au fil des années, j’ai exploré différents horizons créatifs à travers la publicité, les contenus pour marques et entreprises, les réels créatifs, la direction artistique et l’identité visuelle.
               </p>
               <p>
-                Ma mission : explorer de nouveaux horizons visuels pour transformer chaque vision en une expérience sensorielle inoubliable, entre modernité et authenticité afro-contemporaine.
+                Ce qui me passionne avant tout, c’est raconter des histoires à travers l’image. J’aime jouer avec les couleurs, la lumière, les mouvements de caméra et tous les détails qui donnent une âme à une réalisation. Inspiré par le cinéma, la musique et l’esthétique afro contemporaine, je cherche constamment à créer des univers visuels forts, modernes et immersifs.
+              </p>
+              <p>
+                Bienvenue dans mon univers créatif.
               </p>
             </motion.div>
           </div>

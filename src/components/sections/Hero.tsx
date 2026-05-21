@@ -24,8 +24,7 @@ export default function Hero() {
            playsInline
            className="absolute inset-0 w-full h-full object-cover opacity-40"
          >
-           <source src="/assets/hero.mov" type="video/quicktime" />
-           <source src="/assets/hero.mov" type="video/mp4" />
+           <source src="/assets/herop.mp4" type="video/mp4" />
          </video>
          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-background-primary z-10" />
       </div>
