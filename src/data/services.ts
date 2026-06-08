@@ -19,7 +19,7 @@ export const detailedServices: Service[] = [
   },
   {
     id: "contenu-creatif",
-    title: "Contenus créatifs & commerciaux",
+    title: "Contenu Digital",
     description: "Production de contenus visuels créatifs mêlant cinéma, lifestyle et expérimentation artistique pour les réseaux sociaux, campagnes digitales et projets visuels contemporains.",
     iconName: "Instagram",
     image: "/assets/services/social.jpg",
@@ -27,10 +27,18 @@ export const detailedServices: Service[] = [
   },
   {
     id: "dir-art",
-    title: "Direction Artistique",
+    title: "Branding & Identité Visuelle",
     description: "Développement d'identités visuelles, concepts graphiques et directions créatives construits autour d'une vision forte, cohérente et esthétique adaptée à chaque projet ou marque.",
     iconName: "Palette",
     image: "/assets/services/art.jpg",
     features: ["Identité visuelle", "Moodboarding stratégique", "Design de sets", "Consulting esthétique"]
+  },
+  {
+    id: "evenements-emissions",
+    title: "Événements & Émissions",
+    description: "Captation et réalisation d'émissions de télévision, podcasts visuels, captations d'événements et spectacles vivants avec une réalisation dynamique et une qualité de production haut de gamme.",
+    iconName: "Tv",
+    image: "/assets/services/event.png",
+    features: ["Couverture multi-caméras", "Production de talk-shows & podcasts", "Captation live & diffusion", "Scénographie & habillage TV"]
   }
 ];

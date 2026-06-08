@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Camera, Film, Instagram, Palette, ArrowUpRight, ArrowRight } from "lucide-react";
+import { Camera, Film, Instagram, Palette, Tv, ArrowUpRight, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -19,16 +19,22 @@ const services = [
     tag: "Branding",
   },
   {
-    title: "Contenus créatifs & commerciaux",
+    title: "Contenu Digital",
     description: "Production de contenus visuels créatifs mêlant cinéma, lifestyle et expérimentation artistique pour les réseaux sociaux, campagnes digitales et projets visuels contemporains.",
     icon: <Instagram className="text-white" size={32} />,
     tag: "Digital Content",
   },
   {
-    title: "Direction Artistique",
+    title: "Branding & Identité Visuelle",
     description: "Développement d’identités visuelles, concepts graphiques et directions créatives construits autour d’une vision forte, cohérente et esthétique adaptée à chaque projet ou marque.",
     icon: <Palette className="text-white" size={32} />,
-    tag: "Creative Vision",
+    tag: "Brand Identity",
+  },
+  {
+    title: "Événements & Émissions",
+    description: "Captation et réalisation d'émissions de télévision, podcasts visuels, captations d'événements et spectacles vivants avec une réalisation dynamique.",
+    icon: <Tv className="text-white" size={32} />,
+    tag: "TV & Events",
   },
 ];
 
@@ -72,7 +78,7 @@ export default function ServicesSection() {
           </motion.div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <motion.div 
               key={index}

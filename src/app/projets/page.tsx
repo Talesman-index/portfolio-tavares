@@ -18,8 +18,9 @@ export default function ProjetsPage() {
     { id: "all", label: "Tous" },
     { id: "clips-musicaux", label: "Clips Musicaux" },
     { id: "publicite", label: "Publicités / Spots de marques" },
-    { id: "contenu-creatif", label: "Contenus Créatifs" },
-    { id: "direction-artistique", label: "Direction Artistique" },
+    { id: "contenu-digital", label: "Contenu Digital" },
+    { id: "branding-identite-visuelle", label: "Branding & Identité Visuelle" },
+    { id: "evenements-emissions", label: "Événements & Émissions" },
   ];
 
   const filteredProjects = activeCategory === "all" 

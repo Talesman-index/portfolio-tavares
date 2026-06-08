@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { CheckCircle, Camera, Film, Instagram, Palette } from "lucide-react";
+import { CheckCircle, Camera, Film, Instagram, Palette, Tv } from "lucide-react";
 import { detailedServices } from "@/data/services";
 
 const IconMap: Record<string, any> = {
@@ -10,6 +10,7 @@ const IconMap: Record<string, any> = {
   Film: Film,
   Instagram: Instagram,
   Palette: Palette,
+  Tv: Tv,
 };
 
 export default function ServicesPageView() {

@@ -10,7 +10,19 @@ export interface Project {
   resultat: string;
   youtube_id: string;
   youtube_url: string;
+  coverImage?: string;
+  additionalLinks?: { label: string; url: string }[];
+  subProjects?: SubProject[];
   featured?: boolean;
+}
+
+export interface SubProject {
+  titre: string;
+  description: string;
+  resultat?: string;
+  youtube_id?: string;
+  coverImage?: string;
+  url?: string;
 }
 
 export interface Service {

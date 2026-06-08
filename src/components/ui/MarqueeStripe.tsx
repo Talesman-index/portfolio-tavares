@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 const items = [
   "Clips Musicaux",
   "Publicité",
-  "Brand Content",
-  "Direction Artistique",
-  "Identité Visuelle",
+  "Contenu Digital",
+  "Branding & Identité Visuelle",
+  "Événements & Émissions",
 ];
 
 export default function MarqueeStripe() {

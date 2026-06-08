@@ -19,9 +19,9 @@ interface ProjectProps {
 
 export default function ProjectCard({ project }: ProjectProps) {
   const [isHovered, setIsHovered] = useState(false);
-  const thumbnailUrl = project.youtube_id 
+  const thumbnailUrl = project.coverImage || (project.youtube_id 
     ? `https://img.youtube.com/vi/${project.youtube_id}/hqdefault.jpg`
-    : null;
+    : null);
 
   return (
     <div
@@ -42,7 +42,7 @@ export default function ProjectCard({ project }: ProjectProps) {
               sizes="(max-width: 768px) 100vw, 50vw"
               className={cn(
                 "object-cover transition-all duration-700 z-10",
-                isHovered ? "opacity-0 scale-110" : "opacity-100 scale-100"
+                isHovered && project.youtube_id ? "opacity-0 scale-110" : isHovered ? "scale-105" : "scale-100"
               )}
             />
           )}

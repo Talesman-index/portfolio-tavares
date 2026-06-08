@@ -141,4 +141,99 @@ export const projects: Project[] = [
     youtube_url: "https://youtu.be/l56g5CeFYR8",
     featured: true
   },
+  {
+    id: "campagne-bsic",
+    slug: "campagne-bsic",
+    titre: "CAMPAGNES BSIC",
+    artiste: "BSIC",
+    categorie: "publicite",
+    roles: ["Réalisation", "Concept créatif", "Direction artistique"],
+    description_courte: "Série de films publicitaires réalisés pour valoriser les solutions bancaires de la BSIC.",
+    description_longue: "Cette série regroupe deux campagnes publicitaires majeures réalisées pour la banque BSIC :",
+    resultat: "Des productions institutionnelles et commerciales modernes qui valorisent l'accessibilité et la simplicité de la banque.",
+    youtube_id: "Qycpk2yR_kE",
+    youtube_url: "https://youtu.be/Qycpk2yR_kE?si=vU_YVjEyCILc8q8K",
+    featured: true,
+    additionalLinks: [
+      {
+        label: "Campagne Elle Gère (LinkedIn)",
+        url: "https://www.linkedin.com/posts/bsicbenin-bsic-ugcPost-7455546133319430144-drNs/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIIdmMBvb53lsn4nqubp6w0xc5H1yaKMDk"
+      }
+    ],
+    subProjects: [
+      {
+        titre: "1. SERVICES DU QUOTIDIEN",
+        description: "Film publicitaire conçu pour mettre en lumière l’écosystème de services BSIC (Transfert Rapide, BSIC NET, Carte GIM) à travers une série de situations du quotidien. Le projet suit différents profils d’utilisateurs effectuant des paiements, des transferts et des retraits. La direction artistique repose sur une approche cinématographique fluide, où chaque scène s’enchaîne naturellement à travers des transitions dynamiques.",
+        resultat: "Un film institutionnel moderne et immersif qui valorise l’ensemble des solutions BSIC à travers une narration humaine, dynamique et accessible.",
+        youtube_id: "Qycpk2yR_kE",
+        url: "https://youtu.be/Qycpk2yR_kE?si=vU_YVjEyCILc8q8K"
+      },
+      {
+        titre: "2. ELLE GÈRE",
+        description: "Spot publicitaire construit autour du concept « Elle gère », mettant en scène une patronne de salon de coiffure confrontée à plusieurs imprévus au cours de sa journée. Grâce à BSIC NET, elle effectue rapidement ses opérations bancaires, règle ses factures et réalise ses paiements en toute autonomie sans interrompre ses activités professionnelles.",
+        resultat: "Un spot moderne et accessible qui démontre comment BSIC NET simplifie la gestion financière du quotidien et permet de tout gérer en quelques clics.",
+        coverImage: "/assets/projects/elle.png",
+        url: "https://www.linkedin.com/posts/bsicbenin-bsic-ugcPost-7455546133319430144-drNs/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIIdmMBvb53lsn4nqubp6w0xc5H1yaKMDk"
+      }
+    ]
+  },
+  {
+    id: "sofitel-cotonou-meet",
+    slug: "sofitel-cotonou-meet",
+    titre: "SOFITEL BÉNIN : WHERE FREE MINDS MEET",
+    artiste: "Sofitel Cotonou Marina Hotel & Spa",
+    categorie: "publicite",
+    roles: ["Réalisation", "Concept créatif", "Direction artistique"],
+    description_courte: "Spot publicitaire promouvant les offres Premium et Luxury du Club des Esprits Libres.",
+    description_longue: "Spot publicitaire conçu pour promouvoir les offres Premium et Luxury du programme Club des Esprits Libres. Le film invite les spectateurs à découvrir un univers raffiné où détente, loisirs, gastronomie et bien-être se rencontrent pour créer une expérience exclusive. La direction artistique repose sur une esthétique élégante et immersive, mettant en valeur les espaces emblématiques de l’établissement à travers une succession de moments de vie : détente au bord de la piscine, pratique du tennis, expériences gastronomiques et instants de bien-être. La mise en scène privilégie la fluidité, le confort et le sentiment de liberté afin de refléter l’esprit du programme.",
+    resultat: "Un spot premium qui valorise l’exclusivité et l’art de vivre proposés par Sofitel, transformant chaque avantage en une expérience mémorable et inspirante.",
+    youtube_id: "",
+    youtube_url: "https://www.instagram.com/reel/DGvULQoM94F/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    coverImage: "/assets/projects/sofitel-cotonou-meet.jpg",
+    featured: true
+  },
+  {
+    id: "village-dhelene",
+    slug: "village-dhelene",
+    titre: "VILLAGE D’HÉLÈNE",
+    artiste: "Village d'Hélène",
+    categorie: "publicite",
+    roles: ["Réalisation", "Concept créatif", "Direction artistique"],
+    description_courte: "Spot publicitaire conçu pour promouvoir l’expérience détente et évasion au Village d’Hélène.",
+    description_longue: "Spot publicitaire conçu pour promouvoir l’expérience du Village d’Hélène comme une destination de détente et de partage. Le film suit un groupe d’amis le temps d’un week-end, depuis leur départ jusqu’à leur immersion dans un cadre naturel propice à la convivialité et à l’évasion. La direction artistique met l’accent sur les émotions, les interactions humaines et la découverte progressive du lieu. À travers des paysages naturels, des activités de groupe, des moments de détente et des repas partagés, le projet valorise l’idée qu’un séjour est avant tout une expérience à vivre ensemble.",
+    resultat: "Un film chaleureux et immersif qui met en avant l’authenticité, la convivialité et l’esprit d’évasion du Village d’Hélène, transformant un simple week-end en une expérience mémorable.",
+    youtube_id: "",
+    youtube_url: "",
+    coverImage: "/assets/projects/village-helene.jpg",
+    featured: false
+  },
+  {
+    id: "les-ateliers-coffi",
+    slug: "les-ateliers-coffi",
+    titre: "LES ATELIERS COFFI",
+    artiste: "Les Ateliers Coffi",
+    categorie: "contenu-digital",
+    roles: ["Réalisation", "Production de contenu"],
+    description_courte: "Projet de contenu digital conçu pour valoriser l’univers artistique des Ateliers Coffi.",
+    description_longue: "Projet de contenu digital conçu pour valoriser l’univers artistique des Ateliers Coffi à travers une série de Réels destinés aux réseaux sociaux. L’objectif était de mettre en lumière le travail de l’artiste, les étapes de création des œuvres ainsi que l’atmosphère unique qui caractérise l’atelier et la galerie.",
+    resultat: "Une série de contenus engageants et esthétiques qui renforcent la visibilité digitale des Ateliers Coffi, valorisent leur démarche artistique et constituent une banque de contenus durable pour leur communication.",
+    youtube_id: "_byqUDk4CUw",
+    youtube_url: "https://youtube.com/shorts/_byqUDk4CUw?feature=share",
+    featured: true
+  },
+  {
+    id: "inauguration-sofitel",
+    slug: "inauguration-sofitel",
+    titre: "INAUGURATION DU SOFITEL COTONOU MARINA",
+    artiste: "Sofitel Cotonou Marina Hotel & Spa",
+    categorie: "evenements-emissions",
+    roles: ["Réalisation", "Captation événementielle"],
+    description_courte: "Film événementiel réalisé à l’occasion de l’inauguration officielle du Sofitel Cotonou Marina Hotel & Spa.",
+    description_longue: "Film événementiel réalisé à l’occasion de l’inauguration officielle du Sofitel Cotonou Marina Hotel & Spa. Le projet retrace une soirée d’exception réunissant personnalités, artistes, invités prestigieux et acteurs du monde culturel autour de l’ouverture du premier hôtel 5 étoiles du Bénin.",
+    resultat: "Un film événementiel prestigieux qui immortalise une inauguration mémorable et célèbre l’émergence du Sofitel Cotonou Marina Hotel & Spa comme nouveau symbole du luxe et de l’attractivité de la destination Bénin.",
+    youtube_id: "",
+    youtube_url: "https://www.instagram.com/reel/DFLRl7oPTlh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    coverImage: "/assets/projects/inauguration-sofitel.jpg",
+    featured: true
+  }
 ];

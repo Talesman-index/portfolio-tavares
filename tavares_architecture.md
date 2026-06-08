@@ -16,7 +16,7 @@
 ├── /projets
 │   ├── Nav
 │   ├── Hero section titre
-│   ├── Filtres (Clips · Pub · Brand · Branding)
+│   ├── Filtres (Clips · Pub · Contenu Digital · Branding & Identité Visuelle · Événements & Émissions)
 │   ├── Grille projets (3 col desktop → 1 mobile)
 │   └── Footer
 │
@@ -32,7 +32,7 @@
 ├── /services
 │   ├── Nav
 │   ├── Hero titre
-│   ├── 4 services détaillés (cards avec border gauche orange)
+│   ├── 5 services détaillés (cards avec border gauche orange)
 │   └── Footer
 │
 ├── /a-propos
@@ -83,7 +83,7 @@
 ### 2. Stripe Marquee
 - `12px` hauteur
 - Fond `#EA5A33`, texte `#060909`
-- Texte en loop : `CLIPS MUSICAUX · PUBLICITÉ · BRAND CONTENT · DIRECTION ARTISTIQUE · IDENTITÉ VISUELLE ·`
+- Texte en loop : `CLIPS MUSICAUX · PUBLICITÉ · CONTENU DIGITAL · BRANDING & IDENTITÉ VISUELLE · ÉVÉNEMENTS & ÉMISSIONS ·`
 
 ### 3. Projets en vedette
 - Titre section : "Travaux récents"
@@ -92,7 +92,7 @@
 
 ### 4. Services
 - Titre : "Ce que je fais"
-- 4 blocs en grille 2×2
+- 5 blocs en grille de 3 colonnes (desktop)
 - Chaque bloc : icône ou numéro · titre · description courte
 - Border gauche orange obligatoire
 
@@ -159,7 +159,7 @@
 | 🔴 P0 | ProjectCard | Image · titre · rôle · hover |
 | 🔴 P0 | Footer | Réseaux + localisation + phrase |
 | 🟡 P1 | MarqueeStripe | Loop orange continu |
-| 🟡 P1 | ServiceBlock | 4 blocs border-gauche orange |
+| 🟡 P1 | ServiceBlock | 5 blocs border-gauche orange |
 | 🟡 P1 | ProjectDetail | Page projet individuel |
 | 🟢 P2 | FilterBar | Tabs par catégorie |
 | 🟢 P2 | ContactForm | Formulaire styled |

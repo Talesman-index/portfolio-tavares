@@ -9,7 +9,7 @@ Cinéaste. Directeur artistique. Créateur d'univers.
 Je filme ce que les autres imaginent.
 
 **Sous-titre**
-Basé à Cotonou · Clips · Publicité · Direction artistique
+Basé à Cotonou · Clips · Publicité · Branding & Identité Visuelle · Événements & Émissions
 
 **CTA principal**
 Voir le travail
@@ -24,7 +24,7 @@ Me contacter
 ### Version longue
 Salut tout le monde ! Moi c'est Tavares. Je suis un passionné de cinéma et d'univers visuels, spécialisé dans la réalisation de clips musicaux, mais croyez-moi… je ne m'arrête pas là. Au fil des années, j'ai appris à repousser mes limites, à expérimenter et à explorer de nouvelles façons de raconter des histoires à travers l'image.
 
-Même si beaucoup me connaissent grâce aux clips musicaux, mon univers va bien au-delà. J'ai eu l'occasion de travailler sur des projets variés : vidéos publicitaires, contenus pour entreprises et marques, réels créatifs pour artistes, campagnes visuelles, direction artistique et création d'identités visuelles. Chaque projet représente pour moi une nouvelle manière de créer une émotion et une expérience unique.
+Même si beaucoup me connaissent grâce aux clips musicaux, mon univers va bien au-delà. J'ai eu l'occasion de travailler sur des projets variés : vidéos publicitaires, contenus pour entreprises et marques, contenu digital, campagnes visuelles, branding & identité visuelle, ainsi que les événements & émissions. Chaque projet représente pour moi une nouvelle manière de créer une émotion et une expérience unique.
 
 Ce qui me distingue, c'est mon attention aux détails, mon approche cinématographique et ma passion pour l'esthétique visuelle. J'aime jouer avec les couleurs, la lumière, les mouvements de caméra, les textures et toutes les subtilités qui permettent de donner une véritable âme à une image.
 
@@ -33,7 +33,7 @@ Inspiré par le cinéma, la musique et l'esthétique afro contemporaine, je cher
 Alors bienvenue dans mon univers créatif.
 
 ### Version courte
-Salut tout le monde ! Moi c'est Tavares. Passionné de cinéma et d'univers visuels, je suis spécialisé dans la réalisation de clips musicaux, mais mon univers ne s'arrête pas là. Au fil des années, j'ai exploré différents horizons créatifs à travers la publicité, les contenus pour marques et entreprises, les réels créatifs, la direction artistique et l'identité visuelle.
+Salut tout le monde ! Moi c'est Tavares. Passionné de cinéma et d'univers visuels, je suis spécialisé dans la réalisation de clips musicaux, mais mon univers ne s'arrête pas là. Au fil des années, j'ai exploré différents horizons créatifs à travers la publicité, les contenus pour marques et entreprises, le contenu digital, le branding & l'identité visuelle, ainsi que les événements & émissions.
 
 Ce qui me passionne avant tout, c'est raconter des histoires à travers l'image. J'aime jouer avec les couleurs, la lumière, les mouvements de caméra et tous les détails qui donnent une âme à une réalisation. Inspiré par le cinéma, la musique et l'esthétique afro contemporaine, je cherche constamment à créer des univers visuels forts, modernes et immersifs.
 
@@ -49,7 +49,7 @@ Réalisation de clips cinématographiques pour artistes, avec une approche visue
 ### 2. Films Publicitaires
 Création de vidéos publicitaires et campagnes visuelles pour marques, entreprises et produits.
 
-### 3. Brand Content
+### 3. Contenu Digital
 Création de contenus courts et dynamiques pour les réseaux sociaux :
 - Réels
 - TikToks
@@ -63,6 +63,9 @@ Conception d'identités visuelles et direction artistique pour marques et entrep
 - Affiches
 - Packaging
 - Univers visuels
+
+### 5. Événements & Émissions
+Captation et réalisation d'émissions de télévision, podcasts visuels, captations d'événements et spectacles vivants.
 
 ---
 
@@ -95,6 +98,48 @@ Conception d'identités visuelles et direction artistique pour marques et entrep
 - **Approche** : L'esthétique repose sur une ambiance naturelle et chaleureuse, mêlant scènes de vie, paysages côtiers et instants intimistes. La mise en scène privilégie la spontanéité, les gestes et les regards, avec un symbolisme discret autour des bracelets comme fil conducteur.
 - **Résultat** : Un clip doux et immersif, chargé d'émotion, qui célèbre l'amour, les racines et la simplicité des liens humains.
 - **Mots-clés** : Intimiste · Côtier · Émotionnel · Narratif
+
+---
+
+## PROJETS — PUBLICITÉS / SPOTS DE MARQUES
+
+### Projet : CAMPAGNES BSIC
+- **Client** : BSIC
+- **Rôle** : Réalisation · Concept créatif · Direction artistique
+- **Description** : Série de films publicitaires réalisés pour la banque BSIC (Services du Quotidien & Elle Gère), mettant en valeur l'accessibilité des solutions bancaires et l'autonomie des entrepreneurs via BSIC NET.
+- **Résultat** : Des productions commerciales et institutionnelles modernes qui allient une narration humaine à un design de haute qualité.
+
+### Projet : SOFITEL Bénin : WHERE FREE MINDS MEET
+- **Client** : Sofitel Cotonou Marina Hotel & Spa
+- **Rôle** : Réalisation · Concept créatif · Direction artistique
+- **Description** : Spot publicitaire conçu pour promouvoir les offres Premium et Luxury du programme Club des Esprits Libres.
+- **Résultat** : Un spot premium qui valorise l’exclusivité et l’art de vivre proposés par Sofitel.
+
+### Projet : VILLAGE D’HÉLÈNE
+- **Client** : Village d'Hélène
+- **Rôle** : Réalisation · Concept créatif · Direction artistique
+- **Description** : Spot publicitaire conçu pour promouvoir l’expérience du Village d’Hélène comme une destination de détente et de partage.
+- **Résultat** : Un film chaleureux et immersif qui met en avant l’authenticité et la convivialité du Village d’Hélène.
+
+---
+
+## PROJETS — CONTENU DIGITAL
+
+### Projet : LES ATELIERS COFFI
+- **Client** : Les Ateliers Coffi
+- **Rôle** : Réalisation · Production de contenu
+- **Description** : Projet de contenu digital conçu pour valoriser l’univers artistique des Ateliers Coffi à travers une série de Réels.
+- **Résultat** : Une série de contenus engageants et esthétiques qui renforcent la visibilité digitale des Ateliers Coffi.
+
+---
+
+## PROJETS — ÉVÉNEMENTS & ÉMISSIONS
+
+### Projet : INAUGURATION DU SOFITEL COTONOU MARINA HOTEL & SPA
+- **Client** : Sofitel Cotonou Marina Hotel & Spa
+- **Rôle** : Réalisation · Captation événementielle
+- **Description** : Film événementiel réalisé à l’occasion de l’inauguration officielle du Sofitel Cotonou Marina Hotel & Spa.
+- **Résultat** : Un film événementiel prestigieux qui immortalise une inauguration mémorable.
 
 ---
 
