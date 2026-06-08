@@ -102,7 +102,7 @@ export default function ProjectDetailView({ project }: ProjectDetailViewProps) {
                     </h3>
 
                     {sub.youtube_id && (
-                      <div className="relative aspect-video w-full rounded-xl overflow-hidden mb-6 bg-black border border-border-card">
+                      <div className={`relative ${sub.aspectRatio === "portrait" ? "aspect-[9/16] max-w-[320px]" : "aspect-video w-full"} rounded-xl overflow-hidden mb-6 bg-black border border-border-card mx-auto`}>
                         <iframe
                           src={`https://www.youtube.com/embed/${sub.youtube_id}?modestbranding=1&rel=0`}
                           className="absolute inset-0 w-full h-full"
@@ -114,7 +114,7 @@ export default function ProjectDetailView({ project }: ProjectDetailViewProps) {
                     )}
 
                     {!sub.youtube_id && sub.coverImage && (
-                      <div className="relative aspect-video w-full rounded-xl overflow-hidden mb-6 bg-background-secondary border border-border-card">
+                      <div className={`relative ${sub.aspectRatio === "portrait" ? "aspect-[9/16] max-w-[320px]" : "aspect-video w-full"} rounded-xl overflow-hidden mb-6 bg-background-secondary border border-border-card mx-auto`}>
                         <Image
                           src={sub.coverImage}
                           alt={sub.titre}

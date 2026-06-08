@@ -23,6 +23,7 @@ export interface SubProject {
   youtube_id?: string;
   coverImage?: string;
   url?: string;
+  aspectRatio?: "video" | "portrait";
 }
 
 export interface Service {

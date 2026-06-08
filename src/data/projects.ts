@@ -219,7 +219,37 @@ export const projects: Project[] = [
     resultat: "Une série de contenus engageants et esthétiques qui renforcent la visibilité digitale des Ateliers Coffi, valorisent leur démarche artistique et constituent une banque de contenus durable pour leur communication.",
     youtube_id: "_byqUDk4CUw",
     youtube_url: "https://youtube.com/shorts/_byqUDk4CUw?feature=share",
-    featured: true
+    featured: true,
+    subProjects: [
+      {
+        titre: "1. PRÉSENTATION DE L'ATELIER (TOILE & GALERIE)",
+        description: "Première capsule vidéo au format Réel/Short présentant l'exposition des toiles, l'architecture lumineuse des Ateliers Coffi et l'atmosphère générale de la galerie.",
+        youtube_id: "_byqUDk4CUw",
+        url: "https://youtube.com/shorts/_byqUDk4CUw?feature=share",
+        aspectRatio: "portrait"
+      },
+      {
+        titre: "2. LE GESTE & LA CRÉATION",
+        description: "Deuxième Short axé sur le geste créatif de l'artiste peintre, filmé en plein travail de composition et d'expression sur toile.",
+        youtube_id: "9lzeOFJesHg",
+        url: "https://youtube.com/shorts/9lzeOFJesHg?feature=share",
+        aspectRatio: "portrait"
+      },
+      {
+        titre: "3. PRÉSENTATION DÉTAILLÉE DES ŒUVRES",
+        description: "Troisième vidéo immersive mettant en valeur la texture des peintures, le jeu des couleurs et les détails artistiques des toiles suspendues.",
+        youtube_id: "3XgS7ioZRUU",
+        url: "https://youtube.com/shorts/3XgS7ioZRUU?feature=share",
+        aspectRatio: "portrait"
+      },
+      {
+        titre: "4. HISTORIQUE & VERNISSAGE (INSTAGRAM HIGHLIGHT)",
+        description: "Vidéo partagée sur les réseaux sociaux immortalisant l'événement du vernissage et le partage autour de l'exposition d'art.",
+        coverImage: "https://img.youtube.com/vi/_byqUDk4CUw/hqdefault.jpg",
+        url: "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTQ1OTIxODg4NDk0Nzc5?story_media_id=3892452085383359566&igsh=Z2JxaDl5MHlkbjB3",
+        aspectRatio: "portrait"
+      }
+    ]
   },
   {
     id: "inauguration-sofitel",
