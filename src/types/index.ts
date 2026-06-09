@@ -11,6 +11,7 @@ export interface Project {
   youtube_id: string;
   youtube_url: string;
   coverImage?: string;
+  images?: string[];
   additionalLinks?: { label: string; url: string }[];
   subProjects?: SubProject[];
   featured?: boolean;

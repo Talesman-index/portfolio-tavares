@@ -13,7 +13,10 @@ export const projects: Project[] = [
     resultat: "Un univers visuel dynamique, drôle et profondément ancré dans la culture africaine contemporaine.",
     youtube_id: "v11acbvh1nw",
     youtube_url: "https://youtu.be/v11acbvh1nw",
-    featured: true
+    featured: true,
+    images: [
+      "/assets/clips/vlcsnap-2025-09-01-10h14m31s121.png"
+    ]
   },
   {
     id: "choose-you",
@@ -27,7 +30,12 @@ export const projects: Project[] = [
     resultat: "Un clip doux et immersif, chargé d'émotion, qui célèbre l'amour, les racines et la simplicité des liens humains.",
     youtube_id: "4lDTWvK1nMY",
     youtube_url: "https://youtu.be/4lDTWvK1nMY",
-    featured: true
+    featured: true,
+    images: [
+      "/assets/clips/vlcsnap-2026-06-08-12h59m17s481.png",
+      "/assets/clips/vlcsnap-2026-06-08-13h01m40s699.png",
+      "/assets/clips/vlcsnap-2026-06-08-13h02m33s680.png"
+    ]
   },
   {
     id: "goslow",
@@ -41,7 +49,11 @@ export const projects: Project[] = [
     resultat: "Un clip intense et authentique célébrant le chaos, l'energy et l'identité urbaine de Cotonou.",
     youtube_id: "7YDc638pK5k",
     youtube_url: "https://youtu.be/7YDc638pK5k",
-    featured: true
+    featured: true,
+    images: [
+      "/assets/clips/vlcsnap-2026-06-08-13h07m54s486.png",
+      "/assets/clips/vlcsnap-2026-06-08-13h12m29s879.png"
+    ]
   },
   {
     id: "chill",
@@ -55,7 +67,12 @@ export const projects: Project[] = [
     resultat: "Un univers frais, girly et urbain célébrant l'amitié, la liberté et la good vibe.",
     youtube_id: "R2JhLdGY0Vo",
     youtube_url: "https://youtu.be/R2JhLdGY0Vo",
-    featured: true
+    featured: true,
+    images: [
+      "/assets/clips/vlcsnap-2026-01-24-12h52m39s407.png",
+      "/assets/clips/vlcsnap-2026-01-24-12h53m27s993.png",
+      "/assets/clips/vlcsnap-2026-01-24-12h54m00s960.png"
+    ]
   },
   {
     id: "dozo",
@@ -83,7 +100,12 @@ export const projects: Project[] = [
     resultat: "Un clip visuel intense et immersif, transformant le morceau en une véritable expérience cinématographique.",
     youtube_id: "l-ZzfpN6bxc",
     youtube_url: "https://youtu.be/l-ZzfpN6bxc",
-    featured: true
+    featured: true,
+    images: [
+      "/assets/clips/vlcsnap-2026-06-08-13h32m33s554.png",
+      "/assets/clips/vlcsnap-2026-06-08-13h33m40s989.png",
+      "/assets/clips/vlcsnap-2026-06-08-13h35m43s751.png"
+    ]
   },
   {
     id: "love-money",
@@ -111,7 +133,12 @@ export const projects: Project[] = [
     resultat: "Un clip fort et engagé, qui met en lumière les impacts du harcèlement et affirme un message de libération.",
     youtube_id: "5EcgNyimck4",
     youtube_url: "https://youtu.be/5EcgNyimck4",
-    featured: true
+    featured: true,
+    images: [
+      "/assets/clips/vlcsnap-2026-01-02-19h09m23s401.png",
+      "/assets/clips/vlcsnap-2026-06-08-13h14m30s750.png",
+      "/assets/clips/vlcsnap-2026-06-08-13h17m01s845.png"
+    ]
   },
   {
     id: "najina",
@@ -139,7 +166,12 @@ export const projects: Project[] = [
     resultat: "Une œuvre visuelle percutante qui sublime le message du morceau par une esthétique soignée et une énergie débordante.",
     youtube_id: "l56g5CeFYR8",
     youtube_url: "https://youtu.be/l56g5CeFYR8",
-    featured: true
+    featured: true,
+    images: [
+      "/assets/clips/vlcsnap-2026-05-15-18h11m01s746.png",
+      "/assets/clips/vlcsnap-2026-05-15-18h14m26s353.png",
+      "/assets/clips/vlcsnap-2026-05-15-18h17m11s428.png"
+    ]
   },
   {
     id: "campagne-bsic",
@@ -154,6 +186,11 @@ export const projects: Project[] = [
     youtube_id: "Qycpk2yR_kE",
     youtube_url: "https://youtu.be/Qycpk2yR_kE?si=vU_YVjEyCILc8q8K",
     featured: true,
+    images: [
+      "/assets/clips/vlcsnap-2026-06-08-14h13m49s135.png",
+      "/assets/clips/vlcsnap-2026-06-08-14h14m24s239.png",
+      "/assets/clips/vlcsnap-2026-06-08-14h15m08s645.png"
+    ],
     additionalLinks: [
       {
         label: "Campagne Elle Gère (LinkedIn)",
