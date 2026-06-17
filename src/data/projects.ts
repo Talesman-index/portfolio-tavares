@@ -239,8 +239,8 @@ export const projects: Project[] = [
     description_courte: "Spot publicitaire conçu pour promouvoir l’expérience détente et évasion au Village d’Hélène.",
     description_longue: "Spot publicitaire conçu pour promouvoir l’expérience du Village d’Hélène comme une destination de détente et de partage. Le film suit un groupe d’amis le temps d’un week-end, depuis leur départ jusqu’à leur immersion dans un cadre naturel propice à la convivialité et à l’évasion. La direction artistique met l’accent sur les émotions, les interactions humaines et la découverte progressive du lieu. À travers des paysages naturels, des activités de groupe, des moments de détente et des repas partagés, le projet valorise l’idée qu’un séjour est avant tout une expérience à vivre ensemble.",
     resultat: "Un film chaleureux et immersif qui met en avant l’authenticité, la convivialité et l’esprit d’évasion du Village d’Hélène, transformant un simple week-end en une expérience mémorable.",
-    youtube_id: "",
-    youtube_url: "",
+    youtube_id: "jrRKKypD1go",
+    youtube_url: "https://youtu.be/jrRKKypD1go",
     coverImage: "/assets/projects/village-helene.jpg",
     featured: false
   },
