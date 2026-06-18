@@ -241,8 +241,12 @@ export const projects: Project[] = [
     resultat: "Un film chaleureux et immersif qui met en avant l’authenticité, la convivialité et l’esprit d’évasion du Village d’Hélène, transformant un simple week-end en une expérience mémorable.",
     youtube_id: "jrRKKypD1go",
     youtube_url: "https://youtu.be/jrRKKypD1go",
+    coverImage: "/assets/projects/village-helene.jpg",
     images: [
-      "/assets/projects/village-helene.jpg"
+      "/assets/projects/village-helene.jpg",
+      "/assets/projects/village-helene-seq1.jpg",
+      "/assets/projects/village-helene-seq2.jpg",
+      "/assets/projects/village-helene-seq3.jpg"
     ],
     featured: false
   },
