@@ -34,7 +34,7 @@ export default function Footer() {
             <div className="pb-4">
               <a 
                 href="mailto:tavares.storyline@gmail.com" 
-                className="group flex items-center gap-4 bg-white text-black font-syne font-bold uppercase py-6 px-12 rounded-full hover:bg-accent-primary hover:text-white transition-all duration-500 text-xl md:text-2xl whitespace-nowrap shadow-2xl"
+                className="glow-sweep-btn group flex items-center gap-4 bg-white text-black font-syne font-bold uppercase py-6 px-12 rounded-full hover:bg-accent-primary hover:text-white transition-all duration-500 text-xl md:text-2xl whitespace-nowrap shadow-2xl"
               >
                 CONTACT
                 <ArrowUpRight className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-500" size={32} />

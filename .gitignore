@@ -36,3 +36,6 @@ next-env.d.ts
 /atelier coffi/
 /photo video/
 
+# Python cache
+*.pyc
+__pycache__/

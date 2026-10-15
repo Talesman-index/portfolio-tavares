@@ -52,7 +52,7 @@ export default function ProjetsPage() {
                 key={cat.id}
                 onClick={() => setActiveCategory(cat.id)}
                 className={cn(
-                  "px-6 py-2.5 rounded-full text-[12px] uppercase font-syne font-semibold tracking-[0.1em] transition-all duration-300 border",
+                  "glow-sweep-btn px-6 py-2.5 rounded-full text-[12px] uppercase font-syne font-semibold tracking-[0.1em] transition-all duration-300 border",
                   activeCategory === cat.id 
                     ? "bg-white text-black border-white" 
                     : "bg-transparent text-white/60 border-white/10 hover:border-white/30 hover:text-white"

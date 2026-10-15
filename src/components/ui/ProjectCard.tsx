@@ -33,7 +33,7 @@ export default function ProjectCard({ project }: ProjectProps) {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div className="relative aspect-video w-full overflow-hidden rounded-[4px] mb-8 bg-black">
+        <div className="relative aspect-video w-full overflow-hidden rounded-xl mb-8 bg-black">
           {thumbnailUrl && (
             <Image 
               src={thumbnailUrl} 

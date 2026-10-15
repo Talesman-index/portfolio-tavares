@@ -86,7 +86,7 @@ export default function ServicesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group relative bg-background-card p-8 rounded-2xl border border-border-card hover:border-accent-primary/50 transition-all duration-500 flex flex-col h-full overflow-hidden"
+              className="premium-card group p-8 flex flex-col h-full overflow-hidden"
             >
               {/* Hover background glow */}
               <div className="absolute inset-0 bg-gradient-gold opacity-0 group-hover:opacity-5 transition-opacity duration-500" />

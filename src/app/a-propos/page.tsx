@@ -130,21 +130,21 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <div className="p-10 bg-background-card rounded-xl border border-border-card hover:border-accent-primary/50 transition-colors">
+            <div className="premium-card p-10">
               <Camera className="text-accent-primary mb-6" size={40} />
               <h3 className="text-2xl font-syne font-bold text-white uppercase mb-4">L'Âme de l'Image</h3>
               <p className="text-text-muted font-space">
                 Je ne capture pas seulement des mouvements, je cherche la lumière et les textures qui donnent une véritable âme à chaque plan.
               </p>
             </div>
-            <div className="p-10 bg-background-card rounded-xl border border-border-card hover:border-accent-primary/50 transition-colors">
+            <div className="premium-card p-10">
               <Film className="text-accent-primary mb-6" size={40} />
               <h3 className="text-2xl font-syne font-bold text-white uppercase mb-4">Récit Immersif</h3>
               <p className="text-text-muted font-space">
                 Inspiré par le cinéma, je transforme chaque projet en une aventure visuelle où le spectateur est totalement immergé.
               </p>
             </div>
-            <div className="p-10 bg-background-card rounded-xl border border-border-card hover:border-accent-primary/50 transition-colors">
+            <div className="premium-card p-10">
               <Palette className="text-accent-primary mb-6" size={40} />
               <h3 className="text-2xl font-syne font-bold text-white uppercase mb-4">Afro-Modernité</h3>
               <p className="text-text-muted font-space">
@@ -166,7 +166,7 @@ export default function AboutPage() {
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-syne font-extrabold text-white uppercase mb-12 leading-none">
             Créons quelque chose <br /> d'unique ensemble.
           </h2>
-          <a href="mailto:tavares.storyline@gmail.com" className="bg-white text-accent-primary font-syne font-normal uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-2xl tracking-widest">
+          <a href="mailto:tavares.storyline@gmail.com" className="glow-sweep-btn bg-white text-accent-primary font-syne font-normal uppercase py-6 px-16 rounded-full hover:bg-black hover:text-white transition-all text-xl inline-block shadow-2xl tracking-widest">
             CONTACT
           </a>
         </motion.div>

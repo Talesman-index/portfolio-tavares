@@ -257,7 +257,7 @@ export default function ProjectDetailView({ project }: ProjectDetailViewProps) {
                 {project.subProjects.map((sub, idx) => (
                   <div
                     key={idx}
-                    className="bg-background-card p-8 rounded-2xl border border-border-card relative overflow-hidden group hover:border-accent-primary/30 transition-all duration-300"
+                    className="premium-card p-8 group overflow-hidden"
                   >
                     <h3 className="text-xl font-syne font-bold text-white uppercase mb-4 text-gradient-gold">
                       {sub.titre}

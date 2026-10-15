@@ -22,7 +22,9 @@ export default function Hero() {
            muted
            loop
            playsInline
-           className="absolute inset-0 w-full h-full object-cover opacity-40"
+           aria-hidden="true"
+           tabIndex={-1}
+           className="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none"
          >
            <source src="/assets/herop.mp4" type="video/mp4" />
          </video>
